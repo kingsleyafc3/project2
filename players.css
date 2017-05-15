@@ -1,0 +1,160 @@
+body {
+  background-image: url("lineup.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  
+}
+
+
+
+.field {
+  background-image: url("field.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+
+
+.options {
+  font-size: 25px;
+}
+
+#f1 {
+  position: fixed;
+  top: 21%;
+  left: 42%;
+}
+
+
+#f2 {
+  position: fixed;
+  top: 42%;
+  left: 42%;
+}
+
+#f3 {
+  position: fixed;
+  top: 63%;
+  left: 42%;
+}
+
+#m1 {
+  position: fixed;
+  top: 7%;
+  left: 30%;
+}
+
+#m2 {
+  position: fixed;
+  top: 31%;
+  left: 30%;
+}
+#m3 {
+  position: fixed;
+  top: 52%;
+  left: 30%;
+}
+#m4 {
+  position: fixed;
+  top: 73%;
+  left: 30%;
+}
+
+#d1 {
+  position: fixed;
+  top: 21%;
+  left: 19%;
+}
+#d2 {
+  position: fixed;
+  top: 42%;
+  left: 15%;
+}
+#d3 {
+  position: fixed;
+  top: 63%;
+  left: 19%;
+}
+
+#gk {
+  position: fixed;
+  top: 42%;
+  left: 5%;
+}
+
+#goalie {
+  position: fixed;
+  top:8%;
+  left:41%;
+}
+
+#def1 {
+  position:fixed;
+  top:33.8%;
+  left: 17%;
+}
+
+#def2 {
+  position: fixed;
+  top:33.8%;
+  left:42%;
+}
+
+#def3 {
+  position: fixed;
+  top:33.8%;
+  right:21%;
+}
+
+#mid1 {
+  position: fixed;
+  top:55.5%;
+  left:11%;
+}
+
+#mid2 {
+  position: fixed;
+  top:55.5%;
+  left:33%;
+}
+
+#mid3 {
+  position: fixed;
+  top:55.5%;
+  right:33%;
+}
+
+#mid4{
+  position: fixed;
+  top: 55.5%;
+  right: 11%;
+}
+#off1 {
+  position: fixed;
+  bottom:16%;
+  left:19%;
+}
+
+#off2 {
+  position: fixed;
+  bottom:12%;
+  right:45%;
+}
+
+#off3 {
+  position: fixed;
+  bottom:16%;
+  right:23%;
+}
+
+.gap{
+  margin-top: -10px;
+  width: 175%;
+  height: 100%;
+  
+}
+p{
+  color: white;
+}

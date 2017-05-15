@@ -1,0 +1,313 @@
+nav {
+	 width: 100%;
+    min-height: 3.5em;
+    background: #155674;
+    position: block;
+    display: flex;
+    justify-content: center;
+}
+
+.color-cover, nav {
+    top: 0;
+    right: 0;
+    left: 0;
+}
+nav .nav-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+nav .nav-container #navlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+nav .nav-container #navlist li a {
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: hsla(0,0%,100%,.95);
+    text-shadow: 0 1px 1px rgba(0,0,0,.5);
+    border-radius: 14px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.setup {
+    
+    float: left;
+    margin: 0;
+    padding: 1em;
+    z-index: 1;
+    position: fixed;
+
+
+}
+
+.field {
+  /background-image: url("field.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  
+
+}
+
+#goalie {
+    z-index: 2;
+    position: fixed;
+    top: 19%;
+    left: 32%;
+}
+
+#defenders {
+    z-index: 3;
+    position: fixed;
+    top: 40%;
+}
+
+
+#field {
+    height: 600px;
+    width: 480px;
+    position: relative;
+    border: 1px solid black;
+    
+}
+
+#field.striped {
+background-image: url("test.png");    
+background-size: 480px 600px;
+
+
+}
+
+
+
+
+
+
+#content {
+  display: none;
+}
+
+#submit {
+    clear: both;
+    
+    
+}
+
+
+
+.test {
+  padding: 2%;
+  background: #fff9c6;
+  color: #c7b27e;
+  border: 1px solid #fce29f;
+  border-radius: .25em;
+  
+  
+
+}
+
+#pickside {
+  text-decoration: none;
+  
+
+
+}
+
+button {
+  color: #FFF;
+  background-color: #900;
+  font-weight: bold;
+}
+
+
+div#tabs table{display:none;}
+
+div#tabs table.tab1:target {display:block;}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+#f1 {
+  position: fixed;
+  top: 21%;
+  left: 40%;
+}
+
+
+#f2 {
+  position: fixed;
+  top: 42%;
+  left: 40%;
+}
+
+#f3 {
+  position: fixed;
+  top: 63%;
+  left: 42%;
+}
+
+#m1 {
+  position: fixed;
+  top: 7%;
+  left: 30%;
+}
+
+#m2 {
+  position: fixed;
+  top: 31%;
+  left: 30%;
+}
+#m3 {
+  position: fixed;
+  top: 52%;
+  left: 30%;
+}
+#m4 {
+  position: fixed;
+  top: 73%;
+  left: 30%;
+}
+
+#d1 {
+  position: fixed;
+  top: 21%;
+  left: 19%;
+}
+#d2 {
+  position: fixed;
+  top: 42%;
+  left: 15%;
+}
+#d3 {
+  position: fixed;
+  top: 63%;
+  left: 19%;
+}
+
+#gk {
+  position: fixed;
+  top: 42%;
+  left: 5%;
+}
+
+#f11 {
+  position: fixed;
+  top: 21%;
+  right: 43%;
+}
+
+
+#f21 {
+  position: fixed;
+  top: 42%;
+  right: 43%;
+}
+
+#f31 {
+  position: fixed;
+  top: 63%;
+  right: 40%;
+}
+
+#m11 {
+  position: fixed;
+  top: 7%;
+  right: 30%;
+}
+
+#m21 {
+  position: fixed;
+  top: 31%;
+  right: 30%;
+}
+#m31 {
+  position: fixed;
+  top: 52%;
+  right: 30%;
+}
+#m41 {
+  position: fixed;
+  top: 73%;
+  right: 30%;
+}
+
+#d11 {
+  position: fixed;
+  top: 21%;
+  right: 19%;
+}
+#d21 {
+  position: fixed;
+  top: 42%;
+  right: 15%;
+}
+#d31 {
+  position: fixed;
+  top: 63%;
+  right: 19%;
+}
+
+#gk1 {
+  position: fixed;
+  top: 42%;
+  right: 5%;
+}
+
+.cover {
+position: absolute;
+width: 100%;
+background: none;
+
+}
+
+#score {
+  border: 1px solid black;
+  color: white;
+  padding: 1%;
+  color: #2CB3C9;
+  background-color: black;
+  width: 100%;
+}
+
+.simulator {
+  text-align: center;
+}
+
+#away {
+  float: right;
+}
+
+.a1 {
+  background-image: url("homeBkgrnd.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-origin: initial;
+  background-position: top center;
+  background-size: 100% 100%;
+}
+
+h3 {
+  font-family: fantasy;
+  color: white;
+  margin-top: 15%;
+  margin-left: 35%;
+  font-size: 250%;
+}
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<form action="lineup.php" method="post">
+<body class="test">
+<nav role="navigation">
+<div class="nav-container">
+	<ul id="navlist" class>
+		<li>
+			<h1>Lineup Simulator</h1>
+		</li>
+
+	</ul>
+</div>
+</nav>
+
+<div class="main">
+	<table  align="left">
+		<tr>
+			<th><div class="striped" id="field"></div></th>
+			<th>
+				<p>Goalie</p>
+	<select name="goalkeeper" id="wgtmsr">
+<option value = "Petr Cech"> Petr Cech </option>
+<option value = "Kasper Schmeichel"> Kasper Schmeichel </option>
+<option value = "Ben Foster"> Ben Foster </option>
+<option value = "David De Gea"> David De Gea </option>
+</select>
+<p>Defenders</p>
+<div id="def1">
+<select name="defender1" id="wgtmsr2">
+<option value = "John Terry"> John Terry </option>
+<option value = "David Alaba"> David Alaba </option>
+<option value = "Sergio Ramos"> Sergio Ramos </option>
+</select> <select name="defender2" id="wgtmsr3">
+<option value = "Chris Smalling "> Chris Smalling </option>
+<option value = "Gerard Pique"> Gerard Pique </option>
+<option value = "Gary Cahill"> Gary Cahill </option>
+</select> <select name="defender3" id="wgtmsr3">
+<option value = "Rio Ferdinand"> Rio Ferdinand </option>
+<option value = "Laurent Koscielny"> Laurent Koscielny </option>
+<option value = "Thiago Silva "> Thiago Silva </option>
+</select>
+</div>
+<p>Midfielders</p>
+<div id="mid1">
+<select name="midfielder1" id="wgtmsr4">
+<option value = "Gareth Bale"> Gareth Bale </option>
+<option value = "Angel Di Maria"> Angel Di Maria </option>
+<option value = "Ivan Rakitic"> Ivan Rakitic </option>
+</select> <select name="midfielder2" id="wgtmsr5">
+<option value = "Luka Modric"> Luka Modric </option>
+<option value = "David Silva"> David Silva </option>
+<option value = "Juan Mata"> Juan Mata </option>
+</select> <select name="midfielder3" id="wgtmsr6">
+<option value = "Paul Pogba "> Paul Pogba </option>
+<option value = "Eden Hazard"> Eden Hazard </option>
+<option value = "Riyad Mayrez"> Riyad Mayrez </option>
+</select> <select name="midfielder4" id="wgtmsr7">
+<option value = "Daniel Sturridge"> Daniel Sturridge </option>
+<option value = "Christian Eriksen"> Christian Eriksen </option>
+<option value = "Alexis Sanchez"> Alexis Sanchez </option>
+</select> 
+</div>
+
+<p>Forwards</p>
+<div id="off1">
+	<select name="forward1" id="wgtmsr8">
+<option value = "Cristiano Ronaldo"> Cristiano Ronaldo </option>
+<option value = "Sergio Aguero"> Sergio Aguero </option>
+<option value = "Marcus Rashford "> Marcus Rashford </option>
+</select> <select name="forward2" id="wgtmsr9">
+<option value = "Anthony Martial"> Anthony Martial </option>
+<option value = "Jesus Navas"> Jesus Navas </option>
+<option value = "Harry Kane"> Harry Kane </option>
+</select> 
+<select name="forward3" id="wgtmsr10">
+<option value = "Delli Alli"> Delli Alli </option>
+<option value = "Jamie Vardy"> Jamie Vardy </option>
+<option value = "Firmino"> Firmino </option>
+</select> 
+</div>
+			</th>
+		</tr>
+		
+
+	</table>
+</div>
+
+<div class="table2">
+<div id='tabs'>
+
+  <h2 class="nav-tab-wrapper">
+    <a href="#tab1" id="pickside" class="nav-tab tab1">Pick Away Side</a>
+	
+  </h2>
+
+ <table id="tab1" class="tab1">
+		<tr>
+
+			<th><div class="striped" id="field"></div></th>
+			<th>
+				<p>Goalie</p>
+	<select name="goalkeeper1" id="wgtmsr">
+<option value = "Iker Casillas"> Iker Casillas </option>
+<option value = "David de Gea"> David de Gea </option>
+<option value = "Ter Stegen"> Ter Stegen</option>
+<option value = "David De Gea"> David De Gea </option>
+</select>
+<p>Defenders</p>
+<div id="def1">
+<select name="defender11" id="wgtmsr2">
+<option value = "Dante"> Dante </option>
+<option value = "David Luiz"> David Luiz </option>
+<option value = "Chiellini"> Chiellini </option>
+</select> <select name="defender21" id="wgtmsr3">
+<option value = "Bonnucci "> Bonnucci </option>
+<option value = "Matts Hummels"> Matts Hummels </option>
+<option value = "Pepe"> Pepe </option>
+</select> <select name="defender31" id="wgtmsr3">
+<option value = "Deigo Godin"> Deigo Godin</option>
+<option value = "Jerome Boateng"> Jerome Boateng </option>
+<option value = "Phillip Lahm "> Phillip Lahm</option>
+</select>
+</div>
+<p>Midfielders</p>
+<div id="mid1">
+<select name="midfielder11" id="wgtmsr4">
+<option value = "Mesut Ozil"> Mesut Ozil </option>
+<option value = "Andres Iniesta"> Andres Iniesta </option>
+<option value = "Arjen Robben"> Arjen Robben </option>
+</select> <select name="midfielder21" id="wgtmsr5">
+<option value = "Cesc Fabregas"> Cesc Fabregas </option>
+<option value = "Kevin De Bruyen"> Kevin De Bruyen </option>
+<option value = "Marco Veratti"> Marco Veratti</option>
+</select> <select name="midfielder31" id="wgtmsr6">
+<option value = "Dimitri Payet "> Dimitri Payet </option>
+<option value = "Arturo Vidal"> Arturo Vidal </option>
+<option value = "Riyad Mayrez"> Riyad Mayrez </option>
+</select> <select name="midfielder41" id="wgtmsr7">
+<option value = "Marco Reus"> Marco Reus </option>
+<option value = "James Rodriguez"> James Rodriguez </option>
+<option value = "Julian Draxler"> Julian Draxler </option>
+</select> 
+</div>
+
+<p>Forwards</p>
+<div id="off1">
+	<select name="forward11" id="wgtmsr8">
+<option value = "Messi"> Messi </option>
+<option value = "Carlos Tevez"> Carlos Tevez </option>
+<option value = "Robert Lewondowski"> Robert Lewondowski </option>
+</select> <select name="forward21" id="wgtmsr9">
+<option value = "Neymar"> Neymar </option>
+<option value = "Mauro Icardi"> Mauro Icardi </option>
+<option value = "Thomas Muller"> Thomas Muller </option>
+</select> 
+<select name="forward31" id="wgtmsr10">
+<option value = "Romelu Lukaku"> Romelu Lukaku </option>
+<option value = "Dries Mertens"> Dries Mertens </option>
+<option value = "Deigo Costa"> Deigo Costa </option>
+</select> 
+</div>
+		</th>
+	</tr>
+		
+
+</table>
+
+</div>
+</div>
+
+
+<div id="submit">
+<center>
+
+<button type="submit" value="Submit">Predict Score</button>
+</center>
+</div>
+</form>
+
+</body>
+</html>
